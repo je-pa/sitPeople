@@ -27,7 +27,7 @@ public class DuoBack implements Chair {
     }
 
     @Override
-    public People getPeople(){
+    public People whoisSitting(){
         return people;
     }
 

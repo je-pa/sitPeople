@@ -5,6 +5,8 @@ public interface People {
     String getGender();
     int getAge();
 
+    Chair sittingChair();
+
     void sit(Chair chair);
-    void stand(Chair chair);
+    void stand();
 }

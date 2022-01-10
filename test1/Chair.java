@@ -4,7 +4,7 @@ public interface Chair {
     int getLegsNum();
     String getColor();
     String getBrand();
-    People getPeople();
+    People whoisSitting();
 
     void setPeople(People people);
 }
