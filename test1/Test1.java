@@ -51,5 +51,5 @@ public class Test1 {
                 System.out.printf("%s님은 %d번 의자에 앉아 있습니다.\n",people.getName(), chairs.indexOf(chair)+1);
             }
         }
-    }
+    }//
 }
